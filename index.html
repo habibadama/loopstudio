@@ -11,13 +11,6 @@
   </head>
   <body>
     <header>
-      <img src="images/desktop/image-hero.jpg" class="desktop-img" alt="" />
-      <img
-        src="images/mobile/image-hero.jpg"
-        class="mobile-img"
-        style="display: none"
-        alt=""
-      />
       <nav class="navbar">
         <a href="#" class="logo"><img src="images/logo.svg" alt="" /></a>
         <ul class="nav-list">
@@ -27,23 +20,29 @@
           <li class="nav-item"><a href="#">Products</a></li>
           <li class="nav-item"><a href="#">Support</a></li>
         </ul>
+        <div class="icon-menu">
+          <img src="./images/icon-hamburger.svg" alt="" class="show-menu">
+          <img src="./images/icon-close.svg" alt="" class="close-menu">
+        </div>
       </nav>
       <div class="header-title">
         <h1>IMMERSIVE EXPERIENCES THAT DELIVER</h1>
       </div>
     </header>
     <section class="sec-01">
-      <div class="sec-01-img">
-        <img src="images/desktop/image-interactive.jpg" alt="" />
-      </div>
-      <div class="sec-01-text">
-        <h1>THE LEADER IN INTERACTIVE VR</h1>
-        <p>
-          Founded in 2011, Loopstudios has been producing world-class virtual
-          reality projects for some of the best companies around the globe. Our
-          award-winning creations have transformed businesses through digital
-          experiences that bind to their brand.
-        </p>
+      <div class="sec-01-container">
+        <div class="sec-01-img">
+          <img src="images/desktop/image-interactive.jpg" alt="" />
+        </div>
+        <div class="sec-01-text">
+          <h1>THE LEADER IN INTERACTIVE VR</h1>
+          <p>
+            Founded in 2011, Loopstudios has been producing world-class virtual
+            reality projects for some of the best companies around the globe. Our
+            award-winning creations have transformed businesses through digital
+            experiences that bind to their brand.
+          </p>
+        </div>
       </div>
     </section>
     <section class="sec-02">
@@ -98,12 +97,12 @@
       <div class="footer-wrapper">
         <div class="section-nav">
           <a href="#" class="logo"><img src="images/logo.svg" alt="" /></a>
-          <ul>
-            <a href="#">About</a>
-            <a href="#">Careers</a>
-            <a href="#">Events</a>
-            <a href="#">Products</a>
-            <a href="#">Support</a>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#">About</a></li>
+            <li class="nav-item"><a href="#">Careers</a></li>
+            <li class="nav-item"><a href="#">Events</a></li>
+            <li class="nav-item"><a href="#">Products</a></li>
+            <li class="nav-item"><a href="#">Support</a></li>
           </ul>
         </div>
         <div class="section-socials">
@@ -117,5 +116,6 @@
         </div>
       </div>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
