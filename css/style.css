@@ -12,6 +12,7 @@ header {
   background-size: cover;
   background-position: center;
   height: 85vh;
+  overflow-x: hidden;
 }
 .icon-menu {
   display: none;
